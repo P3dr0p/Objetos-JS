@@ -81,3 +81,16 @@ main .review .description{
     text-align: center;
     line-height: 2.4rem;
 }
+
+main .review .review-buttons button {
+    border: none;
+    background: none;
+    color: #91cef9;
+}
+
+main .review .review-buttons button i {
+    font-size: 3.6rem;
+    padding: 0 1.6rem;
+}
+
+main .review .
