@@ -93,4 +93,7 @@ main .review .review-buttons button i {
     padding: 0 1.6rem;
 }
 
-main .review .
+main .review button {
+    border: none;
+    border-radius: 0.4rem;
+}
