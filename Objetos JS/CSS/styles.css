@@ -90,10 +90,20 @@ main .review .review-buttons button {
 
 main .review .review-buttons button i {
     font-size: 3.6rem;
-    padding: 0 1.6rem;
+    padding: 0 1.6rem
 }
 
-main .review button {
+main .review .btn button {
     border: none;
     border-radius: 0.4rem;
+    padding: 1rem 1rem;
+
+    font-size: 1.6rem;
+
+    background-color: #75b5e3;
+    cursor: pointer;
+}
+
+main .review .btn button:hover {
+    background-color: #4191cb;
 }
