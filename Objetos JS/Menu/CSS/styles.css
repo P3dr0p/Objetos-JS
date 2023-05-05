@@ -74,9 +74,29 @@ main header .button-container button:hover {
 main section .menu-items {
     display: flex;
     gap: 1.6rem;
+    max-width: 64rem;
 }
 
-main section .menu-items .item-image img{
+main section .menu-items .item-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+main section .menu-items .item-info .item-title p {
+    color: #c59d5f;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+
+main section .menu-items .item-info .item-title p:nth-child(1) {
+    color: #102a42;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+main section .menu-items .item-image img {
     width: 240px;
     height: 160px;
     object-fit: cover;
@@ -88,4 +108,10 @@ main section .menu-items .item-info .item-title {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px dotted #617d98;
+}
+
+
+main section .menu-items .item-info .item-description p {
+    color: #617d98;
+    font-size: 1.6rem;
 }
