@@ -20,7 +20,7 @@ body {
 main {
     display: grid;
     grid-template-columns: 1000px;
-    grid-template-rows: 360px 550px;
+    grid-template-rows: 360px 220px;
     align-items: center;
     justify-content: center;
 }
